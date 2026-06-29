@@ -100,7 +100,7 @@ const renderProductImage = (product) => {
   if (product.category === 'Mice') {
     return (
       <img
-        src="/images/gaming_mouse_hero.png"
+        src={`${import.meta.env.BASE_URL}images/gaming_mouse_hero.png`}
         alt={product.name}
         className="max-h-24 object-contain transition-transform duration-300 group-hover:scale-108"
       />
@@ -109,7 +109,7 @@ const renderProductImage = (product) => {
   if (product.category === 'Keyboards') {
     return (
       <img
-        src="/images/gaming_keyboard_spotlight.png"
+        src={`${import.meta.env.BASE_URL}images/gaming_keyboard_spotlight.png`}
         alt={product.name}
         className="max-h-24 object-contain transition-transform duration-300 group-hover:scale-108 rounded-lg"
       />

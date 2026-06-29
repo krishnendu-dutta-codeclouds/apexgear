@@ -74,7 +74,7 @@ const ProductSpotlight = () => {
             {/* Mouse Visualizer frame */}
             <div className="my-6 flex justify-center">
               <img
-                src="/images/gaming_mouse_hero.png"
+                src={`${import.meta.env.BASE_URL}images/gaming_mouse_hero.png`}
                 alt="Customized Apex-V1"
                 className="max-h-[300px] object-contain rounded-xl drop-shadow-[0_0_20px_rgba(0,0,0,0.5)] transition-all duration-300 animate-float"
                 style={{

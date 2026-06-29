@@ -84,7 +84,7 @@ const Hero = () => {
             <span className="absolute top-2 right-4 font-orbitron text-[9px] tracking-widest text-slate-600">SYS_SEC_ACTIVE</span>
             
             <img
-              src="/images/gaming_mouse_hero.png"
+              src={`${import.meta.env.BASE_URL}images/gaming_mouse_hero.png`}
               alt="Apex-V1 Wireless Esports Gaming Mouse"
               className="max-h-[300px] md:max-h-[420px] object-contain rounded-xl transition-transform duration-500 group-hover:scale-105"
             />
